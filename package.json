@@ -17,12 +17,15 @@
     "stylelint",
     "stylelint-config"
   ],
-  "author": "Vahid Mohammadi",
+  "author": "Vahid Mohammadi <vahidm1467@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/tapsellorg/stylelint-config/issues"
   },
   "homepage": "https://github.com/tapsellorg/stylelint-config#readme",
+  "publishConfig": {
+    "access": "public"
+  },
   "devDependencies": {
     "@commitlint/cli": "^13.1.0",
     "@commitlint/config-conventional": "^13.1.0",
