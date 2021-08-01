@@ -1,3 +1,10 @@
+### [1.0.2](https://github.com/tapsellorg/stylelint-config/compare/v1.0.1...v1.0.2) (2021-08-01)
+
+
+### Bug Fixes
+
+* add public ([1f0b9f4](https://github.com/tapsellorg/stylelint-config/commit/1f0b9f49388ee4544b570e7f7553841616cb23e0))
+
 ### [1.0.1](https://github.com/tapsellorg/stylelint-config/compare/v1.0.0...v1.0.1) (2021-08-01)
 
 
