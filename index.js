@@ -46,7 +46,7 @@ module.exports = {
     'no-duplicate-selectors': [true],
     'color-hex-length': false,
     'plugin/selector-tag-no-without-class': [
-      ['div', 'span', '/h\\d/', 'section', 'p', 'ul', 'table'],
+      ['div', 'span', '/h\\d/', 'section', 'p', 'ul', 'table', 'li', 'tbody', 'th', 'td'],
     ],
     'liberty/use-logical-spec': [
       true,
