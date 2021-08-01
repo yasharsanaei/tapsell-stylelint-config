@@ -19,7 +19,6 @@
   ],
   "author": "Vahid Mohammadi",
   "license": "ISC",
-  "private": "false",
   "bugs": {
     "url": "https://github.com/tapsellorg/stylelint-config/issues"
   },
