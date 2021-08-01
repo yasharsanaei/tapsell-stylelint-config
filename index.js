@@ -55,7 +55,7 @@ module.exports = {
         except: ['top', 'bottom', /^(padding|margin)-(top|bottom)$/],
       },
     ],
-    'pitcher/max-lines': 300,
+    'pitcher/max-lines': 500,
     'scales/border-widths': [{ scale: [1, 2], units: ['px'] }],
     'scales/font-families': ['system-ui', 'monospace', 'dana', 'sans-serif'],
     'scales/font-sizes': [
