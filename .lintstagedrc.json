@@ -1,0 +1,3 @@
+{
+  "projects/**/*.{ts,js,html,jsx,tsx,scss,json,css,md}": ["prettier --write"]
+}

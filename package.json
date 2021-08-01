@@ -1,0 +1,39 @@
+{
+  "name": "@tapsellorg/stylelint-config",
+  "version": "0.0.0",
+  "description": "Shared stylelint configuration in Tapsell projects",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "prettier:write": "prettier . --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tapsellorg/stylelint-config.git"
+  },
+  "keywords": [
+    "stylelint",
+    "stylelint-config"
+  ],
+  "author": "Vahid Mohammadi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tapsellorg/stylelint-config/issues"
+  },
+  "homepage": "https://github.com/tapsellorg/stylelint-config#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^13.1.0",
+    "@commitlint/config-conventional": "^13.1.0",
+    "@commitlint/prompt": "^13.1.0",
+    "@semantic-release/changelog": "^5.0.1",
+    "@semantic-release/exec": "^5.0.0",
+    "@semantic-release/git": "^9.0.0",
+    "@semantic-release/gitlab": "^6.2.1",
+    "husky": "^7.0.1",
+    "lint-staged": "^11.1.1",
+    "prettier": "^2.3.2",
+    "semantic-release": "^17.4.4"
+  }
+}
