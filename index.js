@@ -69,7 +69,7 @@ module.exports = {
       { scale: [0, 4], units: ['px'] },
       { scale: [50, 100], units: ['%'] },
     ],
-    'scales/space': [{ scale: [0.125, 0.25, 0.5, 1, 1.5, 2], units: ['rem'] }],
+    'scales/space': [{ scale: [0.125, 0.25, 0.5, 0.75, 1, 1.5, 2], units: ['rem'] }],
     'declaration-property-unit-allowed-list': [
       {
         'font-size': ['rem'],
