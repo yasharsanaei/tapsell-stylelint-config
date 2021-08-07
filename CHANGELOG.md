@@ -1,3 +1,10 @@
+### [1.0.3](https://github.com/tapsellorg/stylelint-config/compare/v1.0.2...v1.0.3) (2021-08-07)
+
+
+### Improvements
+
+* add more spacing values ([74b29bd](https://github.com/tapsellorg/stylelint-config/commit/74b29bdb6ca544eb15db9c275cf9ed6adf2b75ae))
+
 ### [1.0.2](https://github.com/tapsellorg/stylelint-config/compare/v1.0.1...v1.0.2) (2021-08-01)
 
 
