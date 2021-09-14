@@ -27,7 +27,7 @@ module.exports = {
     'at-rule-disallowed-list': [['extend', 'debug']],
     'unit-case': 'lower',
     'scale-unlimited/declaration-strict-value': [
-      ['/color$/', 'z-index', 'font-size'],
+      ['/color$/', 'z-index'],
       {
         expandShorthand: true,
         ignoreValues: [
