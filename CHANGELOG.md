@@ -1,3 +1,11 @@
+### [1.0.5](https://github.com/tapsellorg/stylelint-config/compare/v1.0.4...v1.0.5) (2021-09-14)
+
+
+### Bug Fixes
+
+* allow rem values for font-size ([f3f0125](https://github.com/tapsellorg/stylelint-config/commit/f3f0125cb9326d75114c8697582aa6b50fc9cdc8))
+* disable errors of using logical values for width,height,border ([f19e4c2](https://github.com/tapsellorg/stylelint-config/commit/f19e4c209a87b77eeb9b84dad8683298e7bc68fe))
+
 ### [1.0.4](https://github.com/tapsellorg/stylelint-config/compare/v1.0.3...v1.0.4) (2021-09-14)
 
 
