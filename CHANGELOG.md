@@ -1,3 +1,10 @@
+### [1.0.4](https://github.com/tapsellorg/stylelint-config/compare/v1.0.3...v1.0.4) (2021-09-14)
+
+
+### Bug Fixes
+
+* dependencies errors ([ccf5792](https://github.com/tapsellorg/stylelint-config/commit/ccf57926d16f8f262316a542bcbe3df09503e920))
+
 ### [1.0.3](https://github.com/tapsellorg/stylelint-config/compare/v1.0.2...v1.0.3) (2021-08-07)
 
 
