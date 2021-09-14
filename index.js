@@ -52,7 +52,7 @@ module.exports = {
       true,
       {
         direction: 'rtl',
-        except: ['top', 'bottom', /^(padding|margin)-(top|bottom)$/],
+        except: ['top', 'bottom', /^(padding|margin|border)-(top|bottom)/, /width$/, /height$/],
       },
     ],
     'pitcher/max-lines': 500,
