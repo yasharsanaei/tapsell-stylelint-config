@@ -1,3 +1,10 @@
+### [1.0.6](https://github.com/tapsellorg/stylelint-config/compare/v1.0.5...v1.0.6) (2021-09-14)
+
+
+### Bug Fixes
+
+* disable font-weight valid values rule ([4940889](https://github.com/tapsellorg/stylelint-config/commit/49408891085a78470dd98e04b09bc5b27bb66653))
+
 ### [1.0.5](https://github.com/tapsellorg/stylelint-config/compare/v1.0.4...v1.0.5) (2021-09-14)
 
 
