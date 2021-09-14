@@ -39,12 +39,13 @@ module.exports = {
         ],
         message:
           'Avoid using magical values like "${value}" for "${property}". Instead, use predefined variables like `var(--primary)`',
+        disableFix: true,
       },
     ],
     'plugin/no-unused-selectors': [true],
     'selector-max-compound-selectors': 4,
     'no-duplicate-selectors': [true],
-    'color-hex-length': false,
+    'color-hex-length': [false],
     'plugin/selector-tag-no-without-class': [
       ['div', 'span', '/h\\d/', 'section', 'p', 'ul', 'table', 'li', 'tbody', 'th', 'td'],
     ],
@@ -62,7 +63,7 @@ module.exports = {
       { scale: [0.75, 0.875, 1, 1.125, 1.25, 1.5, 2], units: ['rem'] },
       { scale: [12, 14, 16, 18, 20, 24], units: ['px'] },
     ],
-    'scales/font-weights': ['normal', 'bold'],
+    // 'scales/font-weights': ['normal', 'bold'], // doesn't support non-numeric values
     // 'scales/line-heights': [1, 1.5],
     // 'scales/z-indices': [-1,0, 1, 999],
     'scales/radii': [

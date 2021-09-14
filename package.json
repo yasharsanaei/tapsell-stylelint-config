@@ -27,14 +27,14 @@
     "access": "public"
   },
   "dependencies": {
+    "@signal-noise/stylelint-scales": "^2.0.2",
     "stylelint-config-prettier": "^8.0.2",
     "stylelint-config-standard": "^22.0.0",
     "stylelint-declaration-strict-value": "^1.7.12",
     "stylelint-max-lines": "^0.1.0",
     "stylelint-no-unused-selectors": "^1.0.39",
     "stylelint-selector-tag-no-without-class": "^2.0.4",
-    "stylelint-use-logical-spec": "^3.2.2",
-    "@signal-noise/stylelint-scales": "^2.0.2"
+    "stylelint-use-logical-spec": "^3.2.2"
   },
   "peerDependencies": {
     "stylelint": ">=13.13.1"
