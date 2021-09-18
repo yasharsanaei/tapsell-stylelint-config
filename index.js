@@ -53,7 +53,16 @@ module.exports = {
       true,
       {
         direction: 'rtl',
-        except: ['top', 'bottom', /^(padding|margin|border)-(top|bottom)/, /width$/, /height$/],
+        except: [
+          'top',
+          'bottom',
+          /^(padding|margin|border)-(top|bottom)/,
+          /width$/,
+          /height$/,
+          // TODO: remove left and right when enough browsers support them. https://caniuse.com/?search=inset-inline
+          'left',
+          'right',
+        ],
       },
     ],
     'pitcher/max-lines': 500,
@@ -70,7 +79,9 @@ module.exports = {
       { scale: [0, 4], units: ['px'] },
       { scale: [50, 100], units: ['%'] },
     ],
-    'scales/space': [{ scale: [0.125, 0.25, 0.5, 0.75, 1, 1.5, 2], units: ['rem'] }],
+    'scales/space': [
+      { scale: [0.125, 0.25, 0.5, 0.75, 1, 1.5, 2], units: ['rem'], disableFix: true },
+    ],
     'declaration-property-unit-allowed-list': [
       {
         'font-size': ['rem'],
