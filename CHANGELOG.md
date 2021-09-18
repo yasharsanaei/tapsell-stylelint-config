@@ -1,3 +1,10 @@
+### [1.0.8](https://github.com/tapsellorg/stylelint-config/compare/v1.0.7...v1.0.8) (2021-09-18)
+
+
+### Bug Fixes
+
+* disable rule no-empty-source as Angular components may have empty scss files ([9606718](https://github.com/tapsellorg/stylelint-config/commit/960671820502896d91fc6dc8014cae925ff3fda4))
+
 ### [1.0.7](https://github.com/tapsellorg/stylelint-config/compare/v1.0.6...v1.0.7) (2021-09-18)
 
 
