@@ -1,3 +1,12 @@
+### [1.0.7](https://github.com/tapsellorg/stylelint-config/compare/v1.0.6...v1.0.7) (2021-09-18)
+
+
+### Bug Fixes
+
+* allow vh/vw/% for padding/margin ([96c7c41](https://github.com/tapsellorg/stylelint-config/commit/96c7c41cd8a1dd76203f70ba7fedb307d37ff334))
+* disable auto fix for "scales" rules (only certain values for some properties) ([3a69bda](https://github.com/tapsellorg/stylelint-config/commit/3a69bdaba99f9987e28018dda115c26f14bf7e46))
+* remove converting left/right to inset-inline-* as they're not well-supported by browsers ([9ebe27b](https://github.com/tapsellorg/stylelint-config/commit/9ebe27b90e4c3afc8888975efbd1b7e02b77e216))
+
 ### [1.0.6](https://github.com/tapsellorg/stylelint-config/compare/v1.0.5...v1.0.6) (2021-09-14)
 
 
