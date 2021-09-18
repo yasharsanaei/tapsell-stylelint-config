@@ -1,3 +1,10 @@
+### [1.0.9](https://github.com/tapsellorg/stylelint-config/compare/v1.0.8...v1.0.9) (2021-09-18)
+
+
+### Improvements
+
+* add border-radius (0,4,10,25,50) and space (0.375rem) supported values ([a788790](https://github.com/tapsellorg/stylelint-config/commit/a788790c73755dc4454afe633a6171a8367cdd73))
+
 ### [1.0.8](https://github.com/tapsellorg/stylelint-config/compare/v1.0.7...v1.0.8) (2021-09-18)
 
 
