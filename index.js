@@ -15,6 +15,7 @@ module.exports = {
     'block-no-empty': true,
     'color-no-invalid-hex': true,
     'comment-no-empty': true,
+    'no-empty-source': false,
     'rule-empty-line-before': [
       'always-multi-line',
       {
@@ -33,8 +34,9 @@ module.exports = {
           'currentColor',
           'inherit',
           'transparent',
-          '/^#([0-9a-f])\\1\\1(\\1\\1\\1)?$/' /* Like #ccc */,
-          '/^#([0-9a-f])([0-9a-f])\\1\\2\\1\\2$/' /* Like #c3c3c3 */,
+          '/^#([0-9a-f])\\1\\1([0-9a-f])?$/' /* Like #ccc */,
+          '/^#([0-9a-f])\\1\\1\\1\\1\\1[0-9a-f]{0,2}$/' /* Like #ccc */,
+          '/^#([0-9a-f])([0-9a-f])\\1\\2\\1\\2[0-9a-f]{0,2}$/' /* Like #c3c3c3 */,
         ],
         message:
           'Avoid using magical values like "${value}" for "${property}". Instead, use predefined variables like `var(--primary)`',
@@ -79,13 +81,13 @@ module.exports = {
       { scale: [50, 100], units: ['%'], disableFix: true },
     ],
     'scales/space': [
-      { scale: [0.125, 0.25, 0.5, 0.75, 1, 1.5, 2], units: ['rem', 'vh', 'vw'], disableFix: true },
+      { scale: [0.125, 0.25, 0.5, 0.75, 1, 1.5, 2], units: ['rem'], disableFix: true },
     ],
     'declaration-property-unit-allowed-list': [
       {
         'font-size': ['rem'],
-        '/^(padding|margin)/': ['rem'],
-        '/^border-.*radius$/': ['px'],
+        '/^(padding|margin)/': ['rem', 'vh', 'vw', '%'],
+        '/^border-.*radius$/': ['px', '%'],
       },
     ],
   },
