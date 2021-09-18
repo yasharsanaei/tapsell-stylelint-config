@@ -77,11 +77,11 @@ module.exports = {
     // 'scales/line-heights': [1, 1.5],
     // 'scales/z-indices': [-1,0, 1, 999],
     'scales/radii': [
-      { scale: [0, 4], units: ['px'], disableFix: true },
-      { scale: [50, 100], units: ['%'], disableFix: true },
+      { scale: [0, 4, 10, 25, 50], units: ['px'], disableFix: true },
+      { scale: [50], units: ['%'], disableFix: true },
     ],
     'scales/space': [
-      { scale: [0.125, 0.25, 0.5, 0.75, 1, 1.5, 2], units: ['rem'], disableFix: true },
+      { scale: [0.125, 0.25, 0.375, 0.5, 0.75, 1, 1.5, 2], units: ['rem'], disableFix: true },
     ],
     'declaration-property-unit-allowed-list': [
       {
