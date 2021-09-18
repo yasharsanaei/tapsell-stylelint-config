@@ -12,7 +12,6 @@ module.exports = {
     'selector-class-pattern': '^([a-z1-9]+-)*([a-z1-9]+)$',
     'selector-type-case': 'lower',
     'property-case': 'lower',
-    'at-rule-no-unknown': true,
     'block-no-empty': true,
     'color-no-invalid-hex': true,
     'comment-no-empty': true,
@@ -69,18 +68,18 @@ module.exports = {
     'scales/border-widths': [{ scale: [1, 2], units: ['px'] }],
     'scales/font-families': ['system-ui', 'monospace', 'dana', 'sans-serif'],
     'scales/font-sizes': [
-      { scale: [0.75, 0.875, 1, 1.125, 1.25, 1.5, 2], units: ['rem'] },
-      { scale: [12, 14, 16, 18, 20, 24], units: ['px'] },
+      { scale: [0.75, 0.875, 1, 1.125, 1.25, 1.5, 2], units: ['rem'], disableFix: true },
+      { scale: [12, 14, 16, 18, 20, 24], units: ['px'], disableFix: true },
     ],
     // 'scales/font-weights': ['normal', 'bold'], // doesn't support non-numeric values
     // 'scales/line-heights': [1, 1.5],
     // 'scales/z-indices': [-1,0, 1, 999],
     'scales/radii': [
-      { scale: [0, 4], units: ['px'] },
-      { scale: [50, 100], units: ['%'] },
+      { scale: [0, 4], units: ['px'], disableFix: true },
+      { scale: [50, 100], units: ['%'], disableFix: true },
     ],
     'scales/space': [
-      { scale: [0.125, 0.25, 0.5, 0.75, 1, 1.5, 2], units: ['rem'], disableFix: true },
+      { scale: [0.125, 0.25, 0.5, 0.75, 1, 1.5, 2], units: ['rem', 'vh', 'vw'], disableFix: true },
     ],
     'declaration-property-unit-allowed-list': [
       {
