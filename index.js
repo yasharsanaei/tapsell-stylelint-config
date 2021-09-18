@@ -71,7 +71,7 @@ module.exports = {
     'scales/font-families': ['system-ui', 'monospace', 'dana', 'sans-serif'],
     'scales/font-sizes': [
       { scale: [0.75, 0.875, 1, 1.125, 1.25, 1.5, 2], units: ['rem'], disableFix: true },
-      { scale: [12, 14, 16, 18, 20, 24], units: ['px'], disableFix: true },
+      // { scale: [12, 14, 16, 18, 20, 24], units: ['px'], disableFix: true },
     ],
     // 'scales/font-weights': ['normal', 'bold'], // doesn't support non-numeric values
     // 'scales/line-heights': [1, 1.5],
