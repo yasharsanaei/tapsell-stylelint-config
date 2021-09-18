@@ -15,7 +15,7 @@ module.exports = {
     'block-no-empty': true,
     'color-no-invalid-hex': true,
     'comment-no-empty': true,
-    'no-empty-source': false,
+    'no-empty-source': null,
     'rule-empty-line-before': [
       'always-multi-line',
       {
@@ -46,7 +46,7 @@ module.exports = {
     'plugin/no-unused-selectors': [true],
     'selector-max-compound-selectors': 4,
     'no-duplicate-selectors': [true],
-    'color-hex-length': [false],
+    'color-hex-length': null,
     'plugin/selector-tag-no-without-class': [
       ['div', 'span', '/h\\d/', 'section', 'p', 'ul', 'table', 'li', 'tbody', 'th', 'td'],
     ],
