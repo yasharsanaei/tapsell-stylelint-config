@@ -25,6 +25,8 @@ module.exports = {
     ],
     'color-named': 'never',
     'at-rule-disallowed-list': [['extend', 'debug']],
+    'at-rule-no-unknown': null,
+    'no-invalid-position-at-import-rule': null,
     'unit-case': 'lower',
     'scale-unlimited/declaration-strict-value': [
       ['/color$/', 'z-index'],
