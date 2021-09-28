@@ -1,3 +1,10 @@
+### [1.0.10](https://github.com/tapsellorg/stylelint-config/compare/v1.0.9...v1.0.10) (2021-09-28)
+
+
+### Bug Fixes
+
+* disable at-rule-no-unknown and no-invalid-position-at-import-rule rules ([5f74718](https://github.com/tapsellorg/stylelint-config/commit/5f747183768c4e4cd40bcbf3d89188700d7f51bc))
+
 ### [1.0.9](https://github.com/tapsellorg/stylelint-config/compare/v1.0.8...v1.0.9) (2021-09-18)
 
 
