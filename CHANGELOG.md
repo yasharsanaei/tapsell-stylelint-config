@@ -1,3 +1,10 @@
+### [2.0.1](https://github.com/tapsellorg/stylelint-config/compare/v2.0.0...v2.0.1) (2021-10-31)
+
+
+### Bug Fixes
+
+* npm dependencies ([1663ff9](https://github.com/tapsellorg/stylelint-config/commit/1663ff9ada96a5f6b29e5e70e42673773985087f))
+
 ## [2.0.0](https://github.com/tapsellorg/stylelint-config/compare/v1.0.11...v2.0.0) (2021-10-31)
 
 ### [1.0.11](https://github.com/tapsellorg/stylelint-config/compare/v1.0.10...v1.0.11) (2021-10-20)
