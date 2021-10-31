@@ -1,3 +1,5 @@
+## [2.0.0](https://github.com/tapsellorg/stylelint-config/compare/v1.0.11...v2.0.0) (2021-10-31)
+
 ### [1.0.11](https://github.com/tapsellorg/stylelint-config/compare/v1.0.10...v1.0.11) (2021-10-20)
 
 
