@@ -12,6 +12,7 @@ module.exports = {
     'selector-class-pattern': ['^([a-z1-9]+-)*([a-z1-9]+)$', { severity: 'warning' }],
     'selector-type-case': ['lower', { severity: 'error' }],
     'property-case': ['lower', { severity: 'error' }],
+    'declaration-empty-line-before': null,
     'unit-case': ['lower', { severity: 'error' }],
     'rule-empty-line-before': [
       'always-multi-line',
