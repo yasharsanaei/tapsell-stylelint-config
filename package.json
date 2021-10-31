@@ -34,10 +34,20 @@
     "stylelint-max-lines": "^0.1.0",
     "stylelint-no-unused-selectors": "^1.0.40",
     "stylelint-selector-tag-no-without-class": "^2.0.4",
+    "stylelint-config-standard-scss": "^2.0.0",
     "stylelint-use-logical-spec": "^3.2.2"
   },
   "peerDependencies": {
-    "stylelint": ">=14.0.1"
+    "stylelint": ">=14.0.1",
+    "@signal-noise/stylelint-scales": "^2.0.3",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-standard": "^23.0.0",
+    "stylelint-declaration-strict-value": "^1.7.12",
+    "stylelint-max-lines": "^0.1.0",
+    "stylelint-no-unused-selectors": "^1.0.40",
+    "stylelint-selector-tag-no-without-class": "^2.0.4",
+    "stylelint-config-standard-scss": "^2.0.0",
+    "stylelint-use-logical-spec": "^3.2.2"
   },
   "devDependencies": {
     "@commitlint/cli": "^13.2.1",
@@ -52,7 +62,6 @@
     "lint-staged": "^11.2.6",
     "prettier": "^2.4.1",
     "semantic-release": "^17.4.4",
-    "stylelint": "^14.0.1",
-    "stylelint-config-standard-scss": "^2.0.0"
+    "stylelint": "^14.0.1"
   }
 }
