@@ -1,3 +1,10 @@
+### [2.0.2](https://github.com/tapsellorg/stylelint-config/compare/v2.0.1...v2.0.2) (2021-10-31)
+
+
+### Bug Fixes
+
+* remove declaration-empty-line-before rule ([5bbac42](https://github.com/tapsellorg/stylelint-config/commit/5bbac421743f88f065107bc9941c126d156e04c4))
+
 ### [2.0.1](https://github.com/tapsellorg/stylelint-config/compare/v2.0.0...v2.0.1) (2021-10-31)
 
 
