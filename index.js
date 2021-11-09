@@ -30,6 +30,7 @@ module.exports = {
     'color-no-invalid-hex': [true, { severity: 'error' }],
     'color-named': ['never', { severity: 'error' }],
     'color-hex-length': null,
+    'color-function-notation': null,
 
     'at-rule-disallowed-list': [['extend', 'debug'], { severity: 'error' }],
     'at-rule-no-unknown': null,
