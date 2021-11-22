@@ -3,7 +3,6 @@ module.exports = {
   plugins: [
     'stylelint-declaration-strict-value',
     'stylelint-no-unused-selectors',
-    'stylelint-selector-tag-no-without-class',
     'stylelint-use-logical-spec',
     'stylelint-max-lines',
     '@signal-noise/stylelint-scales',
@@ -57,10 +56,7 @@ module.exports = {
     'plugin/no-unused-selectors': [true, { severity: 'warning' }],
     'selector-max-compound-selectors': [4, { severity: 'warning' }],
     'no-duplicate-selectors': [true, { severity: 'error' }],
-    'plugin/selector-tag-no-without-class': [
-      ['div', 'span', '/h\\d/', 'section', 'p', 'ul', 'table', 'li', 'tbody', 'th', 'td', 'img'],
-      { severity: 'error' },
-    ],
+    'selector-max-type': [0, { ignore: ['compounded', 'next-sibling'] }],
     'liberty/use-logical-spec': [
       true,
       {
