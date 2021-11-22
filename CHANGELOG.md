@@ -1,3 +1,10 @@
+### [2.0.4](https://github.com/tapsellorg/stylelint-config/compare/v2.0.3...v2.0.4) (2021-11-22)
+
+
+### Bug Fixes
+
+* remove stylelint-selector-tag-no-without-class dep and use selector-max-type instead ([661044a](https://github.com/tapsellorg/stylelint-config/commit/661044ad6a4b20173101a3e9e5b9c700e2d753c7))
+
 ### [2.0.3](https://github.com/tapsellorg/stylelint-config/compare/v2.0.2...v2.0.3) (2021-11-09)
 
 
