@@ -1,3 +1,10 @@
+### [2.0.3](https://github.com/tapsellorg/stylelint-config/compare/v2.0.2...v2.0.3) (2021-11-09)
+
+
+### Bug Fixes
+
+* disable color-function-notation rule ([ffaac3d](https://github.com/tapsellorg/stylelint-config/commit/ffaac3d827c861f412e36c45f3633bb3444833f4))
+
 ### [2.0.2](https://github.com/tapsellorg/stylelint-config/compare/v2.0.1...v2.0.2) (2021-10-31)
 
 
