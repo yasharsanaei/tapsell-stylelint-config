@@ -1,6 +1,6 @@
 {
   "name": "@tapsellorg/stylelint-config",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "Shared stylelint configuration in Tapsell projects",
   "main": "index.js",
   "files": [
