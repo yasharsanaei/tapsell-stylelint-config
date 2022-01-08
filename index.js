@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['stylelint-config-standard-scss'],
+  extends: ['stylelint-config-standard-scss', 'stylelint-config-prettier-scss'],
   plugins: [
     'stylelint-declaration-strict-value',
     'stylelint-no-unused-selectors',
@@ -80,7 +80,7 @@ module.exports = {
       { severity: 'warning', disableFix: true },
     ],
     'scales/font-families': [
-      ['system-ui', 'monospace', 'dana', 'sans-serif'],
+      ['dana-VF', 'system-ui', 'monospace', 'dana', 'sans-serif', 'tahoma'],
       { severity: 'error', disableFix: true },
     ],
     'scales/font-sizes': [
