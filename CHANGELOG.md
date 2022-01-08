@@ -1,3 +1,10 @@
+## [2.1.0](https://github.com/tapsellorg/stylelint-config/compare/v2.0.4...v2.1.0) (2022-01-08)
+
+
+### Features
+
+* disable all prettier related rules ([ea0db58](https://github.com/tapsellorg/stylelint-config/commit/ea0db5875d115928eafdb6805ca412c32e1a3f30))
+
 ### [2.0.4](https://github.com/tapsellorg/stylelint-config/compare/v2.0.3...v2.0.4) (2021-11-22)
 
 
