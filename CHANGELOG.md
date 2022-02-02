@@ -1,3 +1,12 @@
+### [2.1.1](https://github.com/tapsellorg/stylelint-config/compare/v2.1.0...v2.1.1) (2022-02-02)
+
+
+### Improvements
+
+* add error for colors that aren't css variables ([e045ddf](https://github.com/tapsellorg/stylelint-config/commit/e045ddf98a183ba80e95848f696f0c24ace3df79))
+* allow mat-* pgh-* app-* type-selectors ([b894aa9](https://github.com/tapsellorg/stylelint-config/commit/b894aa92f8a0f2a01a0bf1f53317c6b05d911775))
+* only accept modern syntax of rgb and hsl colors ([d6a552c](https://github.com/tapsellorg/stylelint-config/commit/d6a552c4c859a727b7161bfeb6c6d9af13897288))
+
 ## [2.1.0](https://github.com/tapsellorg/stylelint-config/compare/v2.0.4...v2.1.0) (2022-01-08)
 
 
