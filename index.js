@@ -36,21 +36,15 @@ module.exports = {
 
     'no-invalid-position-at-import-rule': null,
     'scale-unlimited/declaration-strict-value': [
-      ['/color$/', 'z-index'],
+      ['/color$/'],
       {
         expandShorthand: true,
-        ignoreValues: [
-          'currentColor',
-          'inherit',
-          'transparent',
-          '/^#([0-9a-f])\\1\\1([0-9a-f])?$/' /* Like #ccc */,
-          '/^#([0-9a-f])\\1\\1\\1\\1\\1[0-9a-f]{0,2}$/' /* Like #ccc */,
-          '/^#([0-9a-f])([0-9a-f])\\1\\2\\1\\2[0-9a-f]{0,2}$/' /* Like #c3c3c3 */,
-        ],
+        ignoreValues: ['currentColor', 'inherit', 'transparent'],
+        ignoreFunctions: false,
         message:
           'Avoid using magical values like "${value}" for "${property}". Instead, use predefined variables like `var(--primary)`',
         disableFix: true,
-        severity: 'warning',
+        severity: 'error',
       },
     ],
     'plugin/no-unused-selectors': [true, { severity: 'warning' }],
