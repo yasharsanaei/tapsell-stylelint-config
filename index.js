@@ -8,19 +8,18 @@ module.exports = {
     '@signal-noise/stylelint-scales',
   ],
   rules: {
-    'selector-class-pattern': ['^([a-z1-9]+-)*([a-z1-9]+)$', { severity: 'warning' }],
+    'selector-class-pattern': ['^([a-z0-9]+-)*([a-z0-9]+)$', { severity: 'warning' }],
+    'custom-property-pattern': ['^_?[A-z0-9-]+$', { severity: 'warning' }],
+    'scss/dollar-variable-pattern': /^[-_]?[a-z0-9\-]+/,
     'selector-type-case': ['lower', { severity: 'error' }],
     'property-case': ['lower', { severity: 'error' }],
     'declaration-empty-line-before': null,
     'unit-case': ['lower', { severity: 'error' }],
-    'rule-empty-line-before': [
-      'always-multi-line',
-      {
-        except: ['first-nested'],
-        ignore: ['after-comment'],
-        severity: 'error',
-      },
-    ],
+    'rule-empty-line-before': null,
+    'scss/dollar-variable-empty-line-before': null,
+    'value-keyword-case': null,
+    'custom-property-empty-line-before': null,
+    'scss/double-slash-comment-empty-line-before': null,
 
     'block-no-empty': [true, { severity: 'error' }],
     'comment-no-empty': [true, { severity: 'error' }],
@@ -29,7 +28,7 @@ module.exports = {
     'color-no-invalid-hex': [true, { severity: 'error' }],
     'color-named': ['never', { severity: 'error' }],
     'color-hex-length': null,
-    'color-function-notation': null,
+    'color-function-notation': 'modern',
 
     'at-rule-disallowed-list': [['extend', 'debug'], { severity: 'error' }],
     'at-rule-no-unknown': null,
