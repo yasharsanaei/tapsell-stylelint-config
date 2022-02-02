@@ -49,7 +49,10 @@ module.exports = {
     'plugin/no-unused-selectors': [true, { severity: 'warning' }],
     'selector-max-compound-selectors': [4, { severity: 'warning' }],
     'no-duplicate-selectors': [true, { severity: 'error' }],
-    'selector-max-type': [0, { ignore: ['compounded', 'next-sibling'] }],
+    'selector-max-type': [
+      0,
+      { ignore: ['compounded', 'next-sibling', 'child'], ignoreTypes: [/^mat-/, /^app-/, /^pgh-/] },
+    ],
     'liberty/use-logical-spec': [
       true,
       {
