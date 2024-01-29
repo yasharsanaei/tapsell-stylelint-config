@@ -1,3 +1,11 @@
+### [2.1.2](https://github.com/tapsellorg/stylelint-config/compare/v2.1.1...v2.1.2) (2024-01-29)
+
+
+### Bug Fixes
+
+* fix stylelint-scales deprecated rule ([c40496b](https://github.com/tapsellorg/stylelint-config/commit/c40496b5c1745587dcf228132b04c8fdf82f60e3))
+* fix stylelint-scales usage ([f0f653c](https://github.com/tapsellorg/stylelint-config/commit/f0f653c75d2520f714714d4ec4c6eae9d6da2399))
+
 ### [2.1.1](https://github.com/tapsellorg/stylelint-config/compare/v2.1.0...v2.1.1) (2022-02-02)
 
 
