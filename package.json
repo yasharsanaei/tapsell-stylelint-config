@@ -29,38 +29,30 @@
   },
   "dependencies": {
     "@signal-noise/stylelint-scales": "^2.0.3",
-    "stylelint-config-prettier-scss": "^0.0.1",
-    "stylelint-config-standard": "^23.0.0",
-    "stylelint-config-standard-scss": "^2.0.0",
-    "stylelint-declaration-strict-value": "^1.7.12",
+    "stylelint-config-prettier-scss": "^1.0.0",
+    "stylelint-config-standard": "^36.0.0",
+    "stylelint-config-standard-scss": "^13.0.0",
+    "stylelint-declaration-strict-value": "^1.10.4",
     "stylelint-max-lines": "^0.1.0",
-    "stylelint-no-unused-selectors": "^1.0.40",
-    "stylelint-use-logical-spec": "^3.2.2"
+    "stylelint-use-logical-spec": "^5.0.1"
   },
   "peerDependencies": {
     "@signal-noise/stylelint-scales": "^2.0.3",
-    "stylelint": ">=14.0.1",
-    "stylelint-config-prettier-scss": "^0.0.1",
-    "stylelint-config-standard": "^23.0.0",
-    "stylelint-config-standard-scss": "^2.0.0",
-    "stylelint-declaration-strict-value": "^1.7.12",
-    "stylelint-max-lines": "^0.1.0",
-    "stylelint-no-unused-selectors": "^1.0.40",
-    "stylelint-use-logical-spec": "^3.2.2"
+    "stylelint": ">=16.2.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "^13.2.1",
+    "@commitlint/cli": "^18.6.0",
     "@commitlint/config-conventional": "^13.2.0",
-    "@commitlint/prompt": "^13.2.1",
-    "@semantic-release/changelog": "^5.0.1",
-    "@semantic-release/exec": "^5.0.0",
-    "@semantic-release/git": "^9.0.0",
-    "@semantic-release/github": "^7.2.3",
-    "@semantic-release/gitlab": "^6.2.1",
+    "@commitlint/prompt": "^18.6.0",
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/exec": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^9.2.6",
+    "@semantic-release/gitlab": "^13.0.2",
     "husky": "^7.0.4",
     "lint-staged": "^11.2.6",
     "prettier": "^2.4.1",
-    "semantic-release": "^17.4.4",
-    "stylelint": "^14.0.1"
+    "semantic-release": "^23.0.0",
+    "stylelint": "^16.2.0"
   }
 }

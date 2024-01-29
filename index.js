@@ -2,7 +2,7 @@ module.exports = {
   extends: ['stylelint-config-standard-scss', 'stylelint-config-prettier-scss'],
   plugins: [
     'stylelint-declaration-strict-value',
-    'stylelint-no-unused-selectors',
+    // 'stylelint-no-unused-selectors', //TODO: this package has no updates since Aug 2021 and is not compatible with new stylelint version, removed from package.json.
     'stylelint-use-logical-spec',
     'stylelint-max-lines',
     '@signal-noise/stylelint-scales',
