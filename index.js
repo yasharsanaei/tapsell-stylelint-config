@@ -5,7 +5,7 @@ module.exports = {
     // 'stylelint-no-unused-selectors', //TODO: this package has no updates since Aug 2021 and is not compatible with new stylelint version, removed from package.json.
     'stylelint-use-logical-spec',
     'stylelint-max-lines',
-    '@signal-noise/stylelint-scales',
+    'stylelint-scales',
   ],
   rules: {
     'selector-class-pattern': ['^([a-z0-9]+-)*([a-z0-9]+)$', { severity: 'warning' }],
@@ -72,10 +72,6 @@ module.exports = {
     'scales/border-widths': [
       [{ scale: [1, 2], units: ['px'] }],
       { severity: 'warning', disableFix: true },
-    ],
-    'scales/font-families': [
-      ['dana-VF', 'system-ui', 'monospace', 'dana', 'sans-serif', 'tahoma'],
-      { severity: 'error', disableFix: true },
     ],
     'scales/font-sizes': [
       [{ scale: [0.75, 0.875, 1, 1.125, 1.25, 1.5, 2], units: ['rem'] }],
