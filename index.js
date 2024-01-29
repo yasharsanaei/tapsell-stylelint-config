@@ -12,12 +12,10 @@ module.exports = {
     'custom-property-pattern': ['^_?[A-z0-9-]+$', { severity: 'warning' }],
     'scss/dollar-variable-pattern': /^[-_]?[a-z0-9\-]+/,
     'selector-type-case': ['lower', { severity: 'error' }],
-    'property-case': ['lower', { severity: 'error' }],
     'declaration-empty-line-before': null,
-    'unit-case': ['lower', { severity: 'error' }],
+    'value-keyword-case': ['lower', { severity: 'error' }],
     'rule-empty-line-before': null,
     'scss/dollar-variable-empty-line-before': null,
-    'value-keyword-case': null,
     'custom-property-empty-line-before': null,
     'scss/double-slash-comment-empty-line-before': null,
 
@@ -46,7 +44,7 @@ module.exports = {
         severity: 'error',
       },
     ],
-    'plugin/no-unused-selectors': [true, { severity: 'warning' }],
+    // 'plugin/no-unused-selectors': [true, { severity: 'warning' }], //TODO: this package has no updates since Aug 2021 and is not compatible with new stylelint version, removed from package.json.
     'selector-max-compound-selectors': [4, { severity: 'warning' }],
     'no-duplicate-selectors': [true, { severity: 'error' }],
     'selector-max-type': [
