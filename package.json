@@ -28,7 +28,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@signal-noise/stylelint-scales": "^2.0.3",
+    "stylelint-scales": "^4.0.0",
     "stylelint-config-prettier-scss": "^1.0.0",
     "stylelint-config-standard": "^36.0.0",
     "stylelint-config-standard-scss": "^13.0.0",
@@ -37,7 +37,7 @@
     "stylelint-use-logical-spec": "^5.0.1"
   },
   "peerDependencies": {
-    "@signal-noise/stylelint-scales": "^2.0.3",
+    "stylelint-scales": "^4.0.0",
     "stylelint": ">=16.2.0"
   },
   "devDependencies": {
