@@ -73,10 +73,6 @@ module.exports = {
       [{ scale: [1, 2], units: ['px'] }],
       { severity: 'warning', disableFix: true },
     ],
-    'scales/font-families': [
-      ['dana-VF', 'system-ui', 'monospace', 'dana', 'sans-serif', 'tahoma'],
-      { severity: 'error', disableFix: true },
-    ],
     'scales/font-sizes': [
       [{ scale: [0.75, 0.875, 1, 1.125, 1.25, 1.5, 2], units: ['rem'] }],
       { severity: 'error', disableFix: true },
