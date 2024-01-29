@@ -5,7 +5,7 @@ module.exports = {
     // 'stylelint-no-unused-selectors', //TODO: this package has no updates since Aug 2021 and is not compatible with new stylelint version, removed from package.json.
     'stylelint-use-logical-spec',
     'stylelint-max-lines',
-    '@signal-noise/stylelint-scales',
+    'stylelint-scales',
   ],
   rules: {
     'selector-class-pattern': ['^([a-z0-9]+-)*([a-z0-9]+)$', { severity: 'warning' }],
