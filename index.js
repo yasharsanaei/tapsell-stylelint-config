@@ -13,7 +13,8 @@ module.exports = {
     'scss/dollar-variable-pattern': /^[-_]?[a-z0-9\-]+/,
     'selector-type-case': ['lower', { severity: 'error' }],
     'declaration-empty-line-before': null,
-    'value-keyword-case': ['lower', { severity: 'error' }],
+    // ignoreKeywords for value-keyword-case in material color codes
+    'value-keyword-case': ['lower', { ignoreKeywords: ['/A[0-9]{3}/'], severity: 'error' }],
     'rule-empty-line-before': null,
     'scss/dollar-variable-empty-line-before': null,
     'custom-property-empty-line-before': null,
