@@ -66,7 +66,7 @@ module.exports = {
           'left',
           'right',
         ],
-        severity: 'error',
+        severity: 'warning',
       },
     ],
     'pitcher/max-lines': [500, { severity: 'error' }],
